@@ -1,0 +1,490 @@
+<?php $__env->startSection('title', 'laptops'); ?>
+<?php $__env->startSection('content'); ?>
+
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- ASIDE -->
+                <div id="aside" class="col-md-3">
+                    
+
+                    <!-- aside Widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Price</h3>
+                        <div class="price-filter">
+                            <div id="price-slider" class="noUi-target noUi-ltr noUi-horizontal">
+                                
+                            </div>
+                            <div class="input-number price-min">
+                                <input id="price-min" type="number">
+                                <span class="qty-up">+</span>
+                                <span class="qty-down">-</span>
+                            </div>
+                            <span>-</span>
+                            <div class="input-number price-max">
+                                <input id="price-max" type="number">
+                                <span class="qty-up">+</span>
+                                <span class="qty-down">-</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /aside Widget -->
+
+                    <!-- aside Widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Brand</h3>
+                        <div class="checkbox-filter">
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-1">
+                                <label for="brand-1">
+                                    <span></span>
+                                    MIS
+                                    <small>(578)</small>
+                                </label>
+                            </div>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-2">
+                                <label for="brand-2">
+                                    <span></span>
+                                    ROG
+                                    <small>(125)</small>
+                                </label>
+                            </div>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-3">
+                                <label for="brand-3">
+                                    <span></span>
+                                    DELL
+                                    <small>(755)</small>
+                                </label>
+                            </div>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-4">
+                                <label for="brand-4">
+                                    <span></span>
+                                    LENOVO
+                                    <small>(578)</small>
+                                </label>
+                            </div>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-5">
+                                <label for="brand-5">
+                                    <span></span>
+                                    ALIENWARE
+                                    <small>(125)</small>
+                                </label>
+                            </div>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="brand-6">
+                                <label for="brand-6">
+                                    <span></span>
+                                    HP
+                                    <small>(755)</small>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /aside Widget -->
+
+                    <!-- aside Widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Top selling</h3>
+                        <div class="product-widget">
+                            <div class="product-img">
+                                <img src="<?php echo e(asset('frontend/img/rog-1.jpg')); ?>" alt="">
+                            </div>
+                            <div class="product-body">
+                                <p class="product-category">Category</p>
+                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                            </div>
+                        </div>
+
+                        <div class="product-widget">
+                            <div class="product-img">
+                                <img src="<?php echo e(asset('frontend/img/msi-1.jpg')); ?>" alt="">
+                            </div>
+                            <div class="product-body">
+                                <p class="product-category">Category</p>
+                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                            </div>
+                        </div>
+
+                        <div class="product-widget">
+                            <div class="product-img">
+                                <img src="<?php echo e(asset('frontend/img/rog-2.jpg')); ?>" alt="">
+                            </div>
+                            <div class="product-body">
+                                <p class="product-category">Category</p>
+                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /aside Widget -->
+                </div>
+                <!-- /ASIDE -->
+
+                <!-- STORE -->
+                <div id="store" class="col-md-9">
+                    <!-- store top filter -->
+                    <div class="store-filter clearfix">
+                        <div class="store-sort">
+                            <label>
+                                Sort By:
+                                <select class="input-select">
+                                    <option value="0">Popular</option>
+                                    <option value="1">Position</option>
+                                </select>
+                            </label>
+
+                            <label>
+                                Show:
+                                <select class="input-select">
+                                    <option value="0">20</option>
+                                    <option value="1">50</option>
+                                </select>
+                            </label>
+                        </div>
+                        <ul class="store-grid">
+                            <li class="active"><i class="fa fa-th"></i></li>
+                            <li><a href="#"><i class="fa fa-th-list"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /store top filter -->
+
+                    <!-- store products -->
+                    <div class="row">
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/msi-1.jpg')); ?>" alt="">
+                                    <div class="product-label">
+                                        <span class="sale">-30%</span>
+                                        <span class="new">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">MSI Cyborg 14 A13VE-029KH ( I7 13620H /
+                                            16GB / SSD 1TB PCIE / RTX4050 6GB / 14"FHD+,144Hz)</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/msi-2.jpg')); ?>" alt="">
+                                    <div class="product-label">
+                                        <span class="new">NEW</span>
+                                    </div>
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">MSI Crosshair 17 HX D14VFKG-234KH ( I7
+                                            14650HX / 16GB / SSD 1TB M2 PClE / RTX4060 8GB / 17"QHD,240Hz )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <div class="clearfix visible-sm visible-xs"></div>
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/rog-1.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">Asus ROG Strix G18 G814JU-N6128W( I7
+                                            13650HX / 16GB / SSD 512GB PCIE / RTX4050 6GB / 18"QHD+,240Hz )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <div class="clearfix visible-lg visible-md"></div>
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/rog-2.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-name"><a href="#">Asus ROG Strix G18 G814JI-N6126W ( I7
+                                            13650HX / 16GB / SSD 1TB PCIE / RTX4070 8GB / 18"QHD+,240Hz )</a></h5>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <div class="clearfix visible-sm visible-xs"></div>
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/msi-3.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">MSI Stealth 16 Mercedes-AMG Motorsport
+                                            A13VG ( I9 13900H / 32GB / SSD 2TB PCIE / RTX4070 8GB / 16"UHD )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/lenovo-1.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">Lenovo Legion 5Pro 16IRX9 ( I9 14900HX /
+                                            32GB / SSD 1TB PCIE / RTX4070 8GB / 16"2K,240Hz )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <div class="clearfix visible-lg visible-md visible-sm visible-xs"></div>
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/lenovo-2.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">Lenovo LOQ 15IAX9-E ( i5 12450HX / 12GB /
+                                            SSD 512GB PCIE / RTX3050 6GB / 15.6"FHD,144Hz )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/alien-1.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">Dell Alienware M15 R7 (i7 12700H / 32GB /
+                                            SSD 1TB PCIE / RTX3070Ti 8GB / 15.6"FHD)</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+
+                        <div class="clearfix visible-sm visible-xs"></div>
+
+                        <!-- product -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="<?php echo e(asset('frontend/img/alien-2.jpg')); ?>" alt="">
+                                </div>
+                                <div class="product-body">
+                                    
+                                    <h3 class="product-name"><a href="#">Dell Alienware M16 R2 ( Ultra 9 185H / 16GB
+                                            / SSD 512GB PCIE / RTX4070 8GB / 16"QHD+,240Hz )</a></h3>
+                                    <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+                                    <div class="product-rating">
+                                    </div>
+                                    <div class="product-btns">
+                                        <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                class="tooltipp">add to wishlist</span></button>
+                                        <button class="add-to-compare"><i class="fa fa-exchange"></i><span
+                                                class="tooltipp">add to compare</span></button>
+                                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                view</span></button>
+                                    </div>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /product -->
+                    </div>
+                    <!-- /store products -->
+
+                    <!-- store bottom filter -->
+                    <div class="store-filter clearfix">
+                        <span class="store-qty">Showing 20-100 products</span>
+                        <ul class="store-pagination">
+                            <li class="active">1</li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- /store bottom filter -->
+                </div>
+                <!-- /STORE -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('frontend.layout.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\web\Computer-Shop\resources\views/frontend/laptops/index.blade.php ENDPATH**/ ?>
