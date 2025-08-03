@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice - KMENGTOCH STORE</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .invoice-box {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      border: 1px solid #eee;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .invoice-box h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .invoice-box table {
+      width: 100%;
+      line-height: 1.5;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .invoice-box table th,
+    .invoice-box table td {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+    }
+
+    .invoice-box .total {
+      font-weight: bold;
+      text-align: right;
+    }
+
+    .header,
+    .footer {
+      text-align: center;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      margin-top: 40px;
+    }
+
+    .logo {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #1abc9c;
+    }
+  </style>
+</head>
+<body>
+  <div class="invoice-box">
+    <div class="logo">💻 KMENGTOCH STORE</div>
+    <div class="header">
+      <p>Street 200, Phnom Penh, Cambodia<br>
+      Phone: 012-345-678 | Email: support@kmengtoch.com</p>
+    </div>
+
+    <h1>INVOICE</h1>
+
+    <p>
+      <strong>Invoice #: </strong> 00123<br>
+      <strong>Date: </strong> August 3, 2025<br>
+      <strong>Customer: </strong> Chan Nita<br>
+      <strong>Email: </strong> nita@example.com
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dell Inspiron Laptop</td>
+          <td>1</td>
+          <td>$600</td>
+          <td>$600</td>
+        </tr>
+        <tr>
+          <td>Logitech Wireless Mouse</td>
+          <td>2</td>
+          <td>$25</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>HP Monitor 24"</td>
+          <td>1</td>
+          <td>$150</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="total">Subtotal</td>
+          <td>$800</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="total">VAT (10%)</td>
+          <td>$80</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="total">Total</td>
+          <td>$880</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer">
+      <p>Thank you for shopping at KMENGTOCH STORE!</p>
+    </div>
+  </div>
+</body>
+</html>
